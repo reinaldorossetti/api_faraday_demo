@@ -1,0 +1,65 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.9)
+    diff-lcs (1.4.4)
+    ethon (0.15.0)
+      ffi (>= 1.15.0)
+    faker (2.18.0)
+      i18n (>= 1.6, < 2)
+    faraday (1.8.0)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    faraday_middleware (1.2.0)
+      faraday (~> 1.0)
+    ffi (1.15.4-x86-mingw32)
+    i18n (1.8.10)
+      concurrent-ruby (~> 1.0)
+    multipart-post (2.1.1)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.3)
+    ruby2_keywords (0.0.5)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  faker
+  faraday (~> 1.8)
+  faraday-net_http
+  faraday_middleware
+  rspec (~> 3.10)
+  rspec-expectations (~> 3.10, >= 3.10.1)
+  typhoeus
+
+BUNDLED WITH
+   2.2.15
